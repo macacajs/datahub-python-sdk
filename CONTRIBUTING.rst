@@ -20,4 +20,4 @@ Upload Package
 
 .. code-block:: shell
 
-   $ make upload
+   $ make publish
