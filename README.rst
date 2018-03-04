@@ -27,13 +27,14 @@ Homepage
 
 Examples
 --------
+
 .. code-block:: python
 
-datahub = DataHub(hostname = '127.0.0.1', port = '9200')
+   datahub = DataHub(hostname = '127.0.0.1', port = '9200')
 
-datahub.switchScene(hub='sample', pathname='test1', data={ 'currentScene': 'scene1' })
+   datahub.switchScene(hub='sample', pathname='test1', data={ 'currentScene': 'scene1' })
 
-datahub.switchAllScenes(hub='sample', data={ 'currentScene': 'default' })
+   datahub.switchAllScenes(hub='sample', data={ 'currentScene': 'default' })
 
 Changelog
 ---------
