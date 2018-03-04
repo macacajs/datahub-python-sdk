@@ -1,0 +1,149 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>API &#8212; wd.py 0.1.10 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1.10',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Example" href="example.html" />
+    <link rel="prev" title="Welcome to datahub-python-sdk’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="api">
+<h1>API<a class="headerlink" href="#api" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-macaca.datahub">
+<span id="datahub"></span><h2>DataHub<a class="headerlink" href="#module-macaca.datahub" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="macaca.datahub.DataHub">
+<em class="property">class </em><code class="descclassname">macaca.datahub.</code><code class="descname">DataHub</code><span class="sig-paren">(</span><em>hostname</em>, <em>port</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/datahub.html#DataHub"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.datahub.DataHub" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="macaca.datahub.DataHub.switchAllScenes">
+<code class="descname">switchAllScenes</code><span class="sig-paren">(</span><em>hub</em>, <em>data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/datahub.html#DataHub.switchAllScenes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.datahub.DataHub.switchAllScenes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="macaca.datahub.DataHub.switchScene">
+<code class="descname">switchScene</code><span class="sig-paren">(</span><em>hub</em>, <em>pathname</em>, <em>data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/datahub.html#DataHub.switchScene"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.datahub.DataHub.switchScene" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-macaca.sdk">
+<span id="datahubsdk"></span><h2>DataHubSDK<a class="headerlink" href="#module-macaca.sdk" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="macaca.sdk.DataHubSDK">
+<em class="property">class </em><code class="descclassname">macaca.sdk.</code><code class="descname">DataHubSDK</code><span class="sig-paren">(</span><em>protocol='http'</em>, <em>hostname='127.0.0.1'</em>, <em>port='5678'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/sdk.html#DataHubSDK"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.sdk.DataHubSDK" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="macaca.sdk.DataHubSDK.getDataByProjectIdAndDataId">
+<code class="descname">getDataByProjectIdAndDataId</code><span class="sig-paren">(</span><em>projectId</em>, <em>dataId</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/sdk.html#DataHubSDK.getDataByProjectIdAndDataId"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.sdk.DataHubSDK.getDataByProjectIdAndDataId" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="macaca.sdk.DataHubSDK.getDataListByProjectId">
+<code class="descname">getDataListByProjectId</code><span class="sig-paren">(</span><em>projectId</em>, <em>data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/sdk.html#DataHubSDK.getDataListByProjectId"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.sdk.DataHubSDK.getDataListByProjectId" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize the MemorizeFormatter.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="macaca.sdk.DataHubSDK.updateSceneByProjectIdAndDataId">
+<code class="descname">updateSceneByProjectIdAndDataId</code><span class="sig-paren">(</span><em>projectId</em>, <em>dataId</em>, <em>data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/sdk.html#DataHubSDK.updateSceneByProjectIdAndDataId"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.sdk.DataHubSDK.updateSceneByProjectIdAndDataId" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">API</a><ul>
+<li><a class="reference internal" href="#module-macaca.datahub">DataHub</a></li>
+<li><a class="reference internal" href="#module-macaca.sdk">DataHubSDK</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to datahub-python-sdk’s documentation!</a></li>
+      <li>Next: <a href="example.html" title="next chapter">Example</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/api.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, zenzhu.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/api.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
