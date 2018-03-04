@@ -8,5 +8,5 @@ install:
   - pip install tox-travis
   - pip install coveralls
 script:
-  - tox
-  - tox -e coveralls
+  - make lint
+  - make test

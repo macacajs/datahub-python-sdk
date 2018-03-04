@@ -13,8 +13,8 @@ DataHub Python Client
 .. image:: https://img.shields.io/pypi/pyversions/wd.svg?style=flat-square
     :target: https://pypi.python.org/pypi/datahub-python-sdk/
 
-.. image:: https://img.shields.io/pypi/dd/wd.svg?style=flat-square
-    :target: https://pypi.python.org/pypi/datahub-python-sdk/
+.. image:: https://img.shields.io/pypi/dd/datahub-sdk.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/datahub-sdk/
 
 Intro
 -----
@@ -27,13 +27,16 @@ Homepage
 
 Examples
 --------
+
 .. code-block:: python
 
-datahub = DataHub(hostname = '127.0.0.1', port = '9200')
+   from macaca import DataHub, DataHubSDK
 
-datahub.switchScene(hub='sample', pathname='test1', data={ 'currentScene': 'scene1' })
+   datahub = DataHub(hostname = '127.0.0.1', port = '9200')
 
-datahub.switchAllScenes(hub='sample', data={ 'currentScene': 'default' })
+   datahub.switch_scene(hub='sample', pathname='test1', data={ 'currentScene': 'scene1' })
+
+   datahub.switch_all_scenes(hub='sample', data={ 'currentScene': 'default' })
 
 Changelog
 ---------
