@@ -44,42 +44,52 @@
 <h1>API<a class="headerlink" href="#api" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="module-macaca.datahub">
 <span id="datahub"></span><h2>DataHub<a class="headerlink" href="#module-macaca.datahub" title="Permalink to this headline">¶</a></h2>
+<p>DataHub.</p>
 <dl class="class">
 <dt id="macaca.datahub.DataHub">
 <em class="property">class </em><code class="descclassname">macaca.datahub.</code><code class="descname">DataHub</code><span class="sig-paren">(</span><em>hostname</em>, <em>port</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/datahub.html#DataHub"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.datahub.DataHub" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="method">
-<dt id="macaca.datahub.DataHub.switchAllScenes">
-<code class="descname">switchAllScenes</code><span class="sig-paren">(</span><em>hub</em>, <em>data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/datahub.html#DataHub.switchAllScenes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.datahub.DataHub.switchAllScenes" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>DataHub.</p>
+<dl class="method">
+<dt id="macaca.datahub.DataHub.switch_all_scenes">
+<code class="descname">switch_all_scenes</code><span class="sig-paren">(</span><em>hub</em>, <em>data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/datahub.html#DataHub.switch_all_scenes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.datahub.DataHub.switch_all_scenes" title="Permalink to this definition">¶</a></dt>
+<dd><p>switch all scenes.</p>
+</dd></dl>
 
 <dl class="method">
-<dt id="macaca.datahub.DataHub.switchScene">
-<code class="descname">switchScene</code><span class="sig-paren">(</span><em>hub</em>, <em>pathname</em>, <em>data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/datahub.html#DataHub.switchScene"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.datahub.DataHub.switchScene" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dt id="macaca.datahub.DataHub.switch_scene">
+<code class="descname">switch_scene</code><span class="sig-paren">(</span><em>hub</em>, <em>pathname</em>, <em>data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/datahub.html#DataHub.switch_scene"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.datahub.DataHub.switch_scene" title="Permalink to this definition">¶</a></dt>
+<dd><p>switch scenes.</p>
+</dd></dl>
 
 </dd></dl>
 
 </div>
 <div class="section" id="module-macaca.sdk">
 <span id="datahubsdk"></span><h2>DataHubSDK<a class="headerlink" href="#module-macaca.sdk" title="Permalink to this headline">¶</a></h2>
+<p>DataHubSDK.</p>
 <dl class="class">
 <dt id="macaca.sdk.DataHubSDK">
 <em class="property">class </em><code class="descclassname">macaca.sdk.</code><code class="descname">DataHubSDK</code><span class="sig-paren">(</span><em>protocol='http'</em>, <em>hostname='127.0.0.1'</em>, <em>port='5678'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/sdk.html#DataHubSDK"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.sdk.DataHubSDK" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="method">
-<dt id="macaca.sdk.DataHubSDK.getDataByProjectIdAndDataId">
-<code class="descname">getDataByProjectIdAndDataId</code><span class="sig-paren">(</span><em>projectId</em>, <em>dataId</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/sdk.html#DataHubSDK.getDataByProjectIdAndDataId"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.sdk.DataHubSDK.getDataByProjectIdAndDataId" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>DataHubSDK.</p>
 <dl class="method">
-<dt id="macaca.sdk.DataHubSDK.getDataListByProjectId">
-<code class="descname">getDataListByProjectId</code><span class="sig-paren">(</span><em>projectId</em>, <em>data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/sdk.html#DataHubSDK.getDataListByProjectId"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.sdk.DataHubSDK.getDataListByProjectId" title="Permalink to this definition">¶</a></dt>
-<dd><p>Initialize the MemorizeFormatter.</p>
+<dt id="macaca.sdk.DataHubSDK.get_by_projectid_and_dataid">
+<code class="descname">get_by_projectid_and_dataid</code><span class="sig-paren">(</span><em>project_id</em>, <em>data_id</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/sdk.html#DataHubSDK.get_by_projectid_and_dataid"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.sdk.DataHubSDK.get_by_projectid_and_dataid" title="Permalink to this definition">¶</a></dt>
+<dd><p>get data by projectid and dataid.</p>
 </dd></dl>
 
 <dl class="method">
-<dt id="macaca.sdk.DataHubSDK.updateSceneByProjectIdAndDataId">
-<code class="descname">updateSceneByProjectIdAndDataId</code><span class="sig-paren">(</span><em>projectId</em>, <em>dataId</em>, <em>data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/sdk.html#DataHubSDK.updateSceneByProjectIdAndDataId"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.sdk.DataHubSDK.updateSceneByProjectIdAndDataId" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dt id="macaca.sdk.DataHubSDK.get_data_list_by_project_id">
+<code class="descname">get_data_list_by_project_id</code><span class="sig-paren">(</span><em>project_id</em>, <em>data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/sdk.html#DataHubSDK.get_data_list_by_project_id"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.sdk.DataHubSDK.get_data_list_by_project_id" title="Permalink to this definition">¶</a></dt>
+<dd><p>get data list by projectid.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="macaca.sdk.DataHubSDK.update_by_projectid_and_dataid">
+<code class="descname">update_by_projectid_and_dataid</code><span class="sig-paren">(</span><em>project_id</em>, <em>data_id</em>, <em>data</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/macaca/sdk.html#DataHubSDK.update_by_projectid_and_dataid"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#macaca.sdk.DataHubSDK.update_by_projectid_and_dataid" title="Permalink to this definition">¶</a></dt>
+<dd><p>update by projectid and dataid.</p>
+</dd></dl>
 
 </dd></dl>
 
