@@ -13,8 +13,8 @@ DataHub Python Client
 .. image:: https://img.shields.io/pypi/pyversions/wd.svg?style=flat-square
     :target: https://pypi.python.org/pypi/datahub-python-sdk/
 
-.. image:: https://img.shields.io/pypi/dd/wd.svg?style=flat-square
-    :target: https://pypi.python.org/pypi/datahub-python-sdk/
+.. image:: https://img.shields.io/pypi/dd/datahub-sdk.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/datahub-sdk/
 
 Intro
 -----
